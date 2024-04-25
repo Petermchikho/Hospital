@@ -185,7 +185,7 @@ h6 {
 p {
 	margin-bottom: var(--body);
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;    
 }
 .sub-info p{
@@ -380,6 +380,7 @@ header .top-nav{
 	padding-right:2%;
     font-weight: 600;
 }
+
 header.header-scrolled .top-nav{
 	display: none;
 	visibility: hidden;
@@ -460,6 +461,7 @@ nav{
 header.header-scrolled nav{
 	margin-top: 0px;
 	border-radius: 0px;
+	background: #7f7f7f;
 }
 .nav-logo img{
 	max-height: 54px;
@@ -1284,6 +1286,7 @@ footer p{
 	}
 
 }
+
 footer ul li {
    font-size: calc(var(--body) -1px);
    margin-top: 15px;
@@ -1352,4 +1355,162 @@ footer ul li a{
 }
 .scroll-top:hover {
 	background: #4bbcd7;
+}
+.appointment header .top-nav{
+	background: #7f7f7f;
+}
+.appointment header nav{
+	background: #7f7f7f;
+}
+main.appointment{
+	padding-top: 150px;
+}
+main.appointment .section-padding{
+	padding-left: 10% !important;
+	padding-right: 10% !important;
+}
+@media screen and (max-width:1100px){
+	main.appointment .section-padding{
+		padding-left: 2% !important;
+		padding-right: 2% !important;
+	}
+	
+}
+.appointment-form{
+	margin-top:20px;
+	margin-bottom:20px;
+	display:flex;
+
+}
+
+.appointment-form form{
+	flex-basis:70%;
+	padding:10px;
+}
+.appointment-form .description{
+	flex-basis:30%;
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+
+}
+@media screen and (max-width:900px){
+	.appointment-form{
+		flex-direction:column;
+	
+	}
+	.appointment-form form{
+		flex-basis:100%;
+	
+	}
+	.appointment-form .description{
+		flex-basis:100%;
+		
+	
+	}
+	
+}
+.appointment-form  h6{
+	margin-bottom: 40px;	
+}
+.appointment-form form .side-by-side{
+	display:flex;
+	justify-content:space-between;
+}
+.appointment-form form .side-by-side .left,
+.appointment-form form .side-by-side .right{
+    flex-basis:48%;
+	display:flex;
+	flex-direction:column;
+}
+@media screen and (max-width:600px){
+	.appointment-form form .side-by-side{
+		flex-direction:column;
+	}
+	.appointment-form form .side-by-side .left,
+	.appointment-form form .side-by-side .right{
+		flex-basis:100%;
+		
+	}
+	
+}
+.appointment-form form .side-by-side .left label,
+.appointment-form form .side-by-side .right label,label{
+    width:100%;
+	margin-bottom: 10px;
+}
+.appointment-form form .side-by-side .left input,
+.appointment-form form .side-by-side .right input,
+.appointment-form form .side-by-side .left select,
+.appointment-form form .side-by-side .right select{
+    width:100%;
+	height:40px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.appointment-form form textarea{
+	width:100%;
+	min-height:200px;
+}
+
+.appointment-form .description .contact{
+	height:40px;
+	width:100%;
+	display:flex;
+	margin-bottom:10px;
+	align-items: center;
+}
+.submit{
+margin-top:20px;
+display:flex;
+flex-direction:row-reverse;
+}
+.submit button{
+	background: var(--color-blue);
+	color:white;
+	padding:10px 20px;
+	border:none;
+	outline:none;
+	font-size:16px;
+}
+.appointment-form .description .contact .icon{
+	background:var(--color-blue);
+	display:flex;
+	align-items: center;
+	color:white;
+	padding:10px;
+	height:100%;
+	flex-basis:10%;
+}
+.contact .text{
+	display:flex;
+	align-items: center;
+	background:#efefef;
+	padding:10px;
+	height:100%;
+	flex-basis:90%;
+
+}
+.contact .text p{
+margin:0px;
+}
+@media screen and (max-width:350px){
+	.contact .text{
+		overflow:hidden;
+	}
+	.contact .text p{
+		margin:0px;
+		font-size:13px;
+		}	
+}
+.description span{
+	margin-bottom:10px;
+}
+.description span i{
+	margin-right:20px;
+	font-size:10px;
+	-webkit-text-stroke: 2px;
+}
+.bold{
+	font-weight:600;
 }

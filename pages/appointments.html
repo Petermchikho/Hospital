@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/bootstrap-icons.css">
 </head>
-<body class="home-one">
+<body class="appointment">
     <header id="header" >
         <div class="top-nav">
             <div class="top-nav-left">
@@ -89,24 +89,24 @@
         </div>
         <nav>
             <div class="nav-logo">
-                <a href="">
-                    <img src="assets/images/logo.png" alt="">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="">
                 </a>
 
             </div>
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li class="nav-link-main active">
-                        <a href="#"  class="main-link">HOME</a>
+                        <a href="../index.html"  class="main-link">HOME</a>
                     </li>
                     <li class="nav-link-main">
                         <a href="" class="main-link">CHAT</a>
                     </li>
                     <li class="nav-link-main">
-                        <a href="pages/appointments.html" class="main-link">APPOINTMENTS</a>
+                        <a href="#" class="main-link">APPOINTMENTS</a>
                     </li>
                     <li class="nav-link-main">
-                        <a href="pages/login/account.html" class="main-link">ACCOUNT</a>
+                        <a href="login/account.html" class="main-link">ACCOUNT</a>
                     </li>
                     
                     
@@ -136,7 +136,7 @@
         <div class="mobile-nav">
             <div class="nav-container">
                 <div class="logo-close">
-                    <img src="assets/images/logo.png" alt="">
+                    <img src="../assets/images/logo.png" alt="">
                     <i class="bi bi-x" id="close-nav">
 
                     </i>
@@ -144,7 +144,7 @@
                 <div class="mobile-links">
                     <ul class="mobile-nav-links">
                         <li class="mobile-nav-link-main drop-down-main active">
-                            <a href="#"  class="mobile-main-link">HOME
+                            <a href="../index.html"  class="mobile-main-link">HOME
                                 
                             </a>
                             
@@ -155,13 +155,13 @@
                             </a>
                         </li>
                         <li class="mobile-nav-link-main drop-down-main">
-                            <a href="pages/appointments.html" class="mobile-main-link">APPOINTMENT
+                            <a href="appointments.html" class="mobile-main-link">APPOINTMENT
                                 
                             </a>
                             
                         </li>
                         <li class="mobile-nav-link-main ">
-                            <a href="pages/login/account.html" class="mobile-main-link border-bottom">CREATE ACCOUNT
+                            <a href="login/account.html" class="mobile-main-link border-bottom">ACCOUNT
                                 
                             </a>
                         </li>
@@ -189,59 +189,113 @@
         </div>
 
     </header>
-    <main >
-        <section class="hero-feature">
-            <div class="hero section-padding">
-                <div class="hero-content">
-                    <h2 class="blue">
-                        <i class="bi bi-chat-fill">
+    <main class="appointment">
+        <div class="appointment-form section-padding">
+            <form action="">
+                <h6>Appointment form </h6>
+                <div class="side-by-side">
+                    <div class="left">
+                        <label for="">Reason</label>
+                        <select name="" id="">
+                            <option value="">Reason</option>
+                        </select>
+
+                    </div>
+                    <div class="right">
+                        <label for="">Date (required)</label>
+                        <input type="date" name="" id="">
+
+                    </div>
+                    
+                </div>
+                <div class="side-by-side">
+                    <div class="left">
+                        <label for="">Your First Name (required) </label>
+                        <input type="text" name="" id="">
+
+                    </div>
+                    <div class="right">
+                        <label for="">Your Last Name (required)</label>
+                        <input type="text" name="" id="">
+
+                    </div>
+                    
+                </div>
+                <div class="side-by-side">
+                    <div class="left">
+                        <label for="">Your Email (required) </label>
+                        <input type="email" name="" id="">
+
+                    </div>
+                    <div class="right">
+                        <label for="">Phone (required)</label>
+                        <input type="number" name="" id="">
+
+                    </div>
+                    
+                </div>
+                <label for="">Description (Optional)</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="submit">
+                    <button type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+            <div class="description">
+                <h6>Book an appointmet</h6>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Aliquid quo voluptas similique.
+                </p>
+                <div class="contact">
+                    <div class="icon">
+                        <i class="bi bi-telephone">
 
                         </i>
-                        
-                    </h2>
-                    <h2>
-                        help online
-                    </h2>
-                    <a href="">
-                        <button>
-                            CHAT WITH US
-                        </button>
-                    </a>                    
+                    </div>
+                    <div class="text">
+                        <p>+265998671706</p>
+                    </div>
                 </div>
-                <div class="banner-shape-wrap">
-                    <img class="object" src="assets/images/banner_shape01.png" data-value="-2" alt="">
-                    <img class="object" src="assets/images/banner_shape02.png" data-value="6" alt="">
-                    <img class="object" src="assets/images/banner_shape03.png" data-value="4" alt="">
-                    <img class="object" src="assets/images/banner_shape04.png" data-value="-6" alt="">
+                <div class="contact">
+                    <div class="icon">
+                        <i class="bi bi-envelope">
+
+                        </i>
+                    </div>
+                    <div class="text">
+                        <p>petercharlesmchikho1@gmail.com</p>
+                    </div>
                 </div>
-    
-            </div>
-            <div class="feature ">
-                <a href="" class="feature-one feature-container blue">
-                    <i class="bi bi-messenger large"></i>
-                    <h5>CHAT</h5>
-                    <p>Chat with our proffesional doctors</p>
-                    <i class="bi bi-plus-square"></i>
+                <div class="contact">
+                    <div class="icon">
+                        <i class="bi bi-pencil">
 
-                </a>
-                <a href="" class="feature-one feature-container">
-                    <i class="bi bi-clipboard-plus large"></i>
-                    <h5>BOOK APPOINTMENT</h5>
-                    <p>Book an appointment with us</p>
-                    <i class="bi bi-plus-square"></i>
-                    
-                </a>
-                <a href="" class="feature-one feature-container blue">
-                    <i class="bi bi-person-fill large"></i>
-                    <h5>ACCOUNT</h5>
-                    <p>Create an account for easy tracking.</p>
-                    <i class="bi bi-plus-square"></i>
-                    
-                </a>
-                
-            </div>
+                        </i>
+                    </div>
+                    <div class="text">
+                        <p>fill the form</p>
+                    </div>
+                </div>
+                <h6>After Booking</h6>
 
-        </section>
+                <p>Hi fill in the details and submit the form. We will contact you via phone or email and fix a time schedule.</p>
+
+                <p>These are the thing you need to carry with you when you come in for the appointment wit the doctor.</p>
+
+                    <span><i class="bi bi-chevron-right"></i>Previous Medical History</span>
+                    <span><i class="bi bi-chevron-right"></i>Enlisted Previous Numbers</span>
+                    <span><i class="bi bi-chevron-right"></i>Discussion with Parents</span>
+                    <span><i class="bi bi-chevron-right"></i>Make sure you are feeling good</span>
+                    <span><i class="bi bi-chevron-right"></i>Have someone eith you</span>
+
+                <span class="bold">Have a healthy life!</span>
+
+            </div>
+        </div>
+
+        
         
 
     </main>
@@ -308,19 +362,8 @@
         </div>
         
       </footer>
-    <script src="assets/js/main.js"></script>
-    <script>
-        const hero=document.querySelector(".hero");
-        hero.addEventListener("mousemove",parallax);
-        function parallax(e){
-            document.querySelectorAll(".object").forEach(function(move){
-                const moving_value=move.getAttribute("data-value");
-                const x=(e.clientX * moving_value /250);
-                const y=(e.clientY * moving_value /250);
-                move.style.transform="translateX(" + x +"px) translateY(" + y +"px)"
-            })
-        }
-    </script>
+    <script src="../assets/js/main.js"></script>
+    
     
 </body>
 </html>
