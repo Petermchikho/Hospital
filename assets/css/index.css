@@ -1116,15 +1116,8 @@ h2.blue{
 	color:#ffffff;
 	transition:all 0.3s;
 }
-.home-one .feature-container:hover{
-	background: #1e0e09;
-}
 .home-one .feature-container.blue{
 	background:#1698d6;
-
-}
-.home-one .feature-container.blue:hover{
-	background: #1e0e09;
 
 }
 .home-one .feature-container i{
