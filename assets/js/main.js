@@ -23,19 +23,19 @@
     closeNav.addEventListener("click",()=>{
         document.querySelector(".mobile-nav").classList.remove("show");
     });
-    const mobileNavs=document.querySelectorAll(".mobile-nav-link-main");
-    for(let i=0;i<mobileNavs.length;i++){
-        mobileNavs[i].addEventListener("click",function(){
-            if(this.classList.contains("show")){
-                for(let i=0;i<mobileNavs.length;i++){
-                    mobileNavs[i].classList.remove("show")
-                }
-            }else{
-                for(let i=0;i<mobileNavs.length;i++){
-                    mobileNavs[i].classList.remove("show")
-                }
-                this.classList.add("show")
-            }
-        })
+    /**
+   * Back to top button
+   */
+    const backtotop =document.getElementById('back-to-top');
+    if (backtotop) {
+    const toggleBacktotop = () => {
+        if (window.scrollY > 100) {
+        backtotop.classList.add('open')
+        } else {
+        backtotop.classList.remove('open')
+        }
+    }
+    window.addEventListener('load', toggleBacktotop)
+    document.addEventListener('scroll',toggleBacktotop);
     }
  })();
