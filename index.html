@@ -182,6 +182,14 @@
                     </a>
 
                 </div>
+                <div class="mobile search-contact-contact">
+                    <a href="pages/login/login.html">
+                        <button>
+                            LOGIN
+                        </button>
+                    </a>
+                    
+                </div>
                 
                 
             </div>
@@ -250,45 +258,46 @@
     </a>
     <footer class="section-padding padding-bottom">
         <div class="top">
-          <div class="left-container">
-            <div class="footer-heading-location">
-              <div class="heading">
-                <p class="bold larger">Contact Us</p>
-              </div>
-              <div class="list-items">
-                <p class="not-link">Luanar Bunda campus</p>
-                <p class="not-link">Lilongwe</p>
-                <p class="not-link">Malawi</p>
-                <div class="contact-info">
-                  <p class="not-link"><i class="bi bi-telephone  white"></i>&nbsp;<span class="white">Phone : </span>+265998671706</p>
-                  <p class="not-link"><i class="bi bi-envelope  white"></i>&nbsp;<span class="white">Email : </span>+265998671706</p>
+            <div class="left-container">
+                <div class="footer-heading-location">
+                  <div class="heading">
+                    <p class="bold larger">Contact Us</p>
+                  </div>
+                  <div class="list-items">
+                    <p class="not-link">Medical clinic</p>
+                    <p class="not-link">Lilongwe</p>
+                    <p class="not-link">Malawi</p>
+                    <div class="contact-info">
+                      <p class="not-link"><i class="bi bi-telephone  white"></i>&nbsp;<span class="white">Phone : </span>+265998671706</p>
+                      <p class="not-link"><i class="bi bi-envelope  white"></i>&nbsp;<span class="white">Email : </span>peter@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-heading">
+                  <div class="heading">
+                    <p class="bold larger">Useful Links</p>
+                  </div>
+                  <div class="list-items">
+                    <ul class="gray">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">Login</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer-heading">
+                  <div class="heading">
+                    <p class="bold larger">Our Feautres</p>
+                  </div>
+                  <div class="list-items">
+                    <ul class="gray">
+                      <li><a href="">Chats</a></li>
+                      <li><a href="">Appointment</a></li>
+                      
+                      
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="footer-heading">
-              <div class="heading">
-                <p class="bold larger">Useful Links</p>
-              </div>
-              <div class="list-items">
-                <ul class="gray">
-                  <li><a href="">Home</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-heading">
-              <div class="heading">
-                <p class="bold larger">Our Services</p>
-              </div>
-              <div class="list-items">
-                <ul class="gray">
-                  <li><a href="">Chats</a></li>
-                  <li><a href="">Appointment</a></li>
-                  <li><a href="">Login</a></li>
-                  
-                </ul>
-              </div>
-            </div>
-          </div>
           
           <div class="footer-heading last">
             <div class="logo">
@@ -309,18 +318,7 @@
         
       </footer>
     <script src="assets/js/main.js"></script>
-    <script>
-        const hero=document.querySelector(".hero");
-        hero.addEventListener("mousemove",parallax);
-        function parallax(e){
-            document.querySelectorAll(".object").forEach(function(move){
-                const moving_value=move.getAttribute("data-value");
-                const x=(e.clientX * moving_value /250);
-                const y=(e.clientY * moving_value /250);
-                move.style.transform="translateX(" + x +"px) translateY(" + y +"px)"
-            })
-        }
-    </script>
+    
     
 </body>
 </html>

@@ -720,6 +720,7 @@ ul li ul li.active span{
 	nav{
 		margin-top: 0px;
 		border-radius: 0px;
+		background:#7f7f7f;
 	}
 }
 @media screen and (max-width:450px){
@@ -1045,6 +1046,7 @@ ul li ul li.active span{
 }
 h2.blue{
 	color:var(--color-blue);
+	font-size: 80px;
 }
 .hero-content button:hover{
 	background: #1e0e09;
@@ -1514,3 +1516,9 @@ margin:0px;
 .bold{
 	font-weight:600;
 }
+.mobile.search-contact-contact button {
+    display: block;
+	margin-left:20px;
+	background:white;
+	color:var(--color-blue);
+  }
